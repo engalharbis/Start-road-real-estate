@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import { defaultProject, sampleProject } from '../utils/calculator'
+import { defaultProject, sampleProject } from './calculator'
 
 export const useStore = create(
   persist(
