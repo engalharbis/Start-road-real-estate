@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStore } from './context/store'
+import { useStore } from './store'
 import PortfolioDashboard from './components/PortfolioDashboard'
 import ProjectWizard from './components/ProjectWizard'
 
