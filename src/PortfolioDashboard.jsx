@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStore } from './store'
-import { calculateAll, fmtCurrency, fmtPct, RATINGS, PROPERTY_TYPES } from '../utils/calculator'
+import { calculateAll, fmtCurrency, fmtPct, RATINGS, PROPERTY_TYPES } from ''./calculator'
 import { EmptyState } from './ui'
 
 export default function PortfolioDashboard() {
