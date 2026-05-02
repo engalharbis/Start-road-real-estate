@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStore } from './store'
-import PortfolioDashboard from './components/PortfolioDashboard'
+import PortfolioDashboard from './PortfolioDashboard'
 import ProjectWizard from './components/ProjectWizard'
 
 export default function App() {
