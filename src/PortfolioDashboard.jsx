@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStore } from '../context/store'
+import { useStore } from './store'
 import { calculateAll, fmtCurrency, fmtPct, RATINGS, PROPERTY_TYPES } from '../utils/calculator'
 import { EmptyState } from './ui'
 
