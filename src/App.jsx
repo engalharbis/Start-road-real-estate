@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStore } from './store'
 import PortfolioDashboard from './PortfolioDashboard'
-import ProjectWizard from './components/ProjectWizard'
+import ProjectWizard from './ProjectWizard'
 
 export default function App() {
   const view = useStore(s => s.view)
